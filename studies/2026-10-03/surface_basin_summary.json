@@ -1,0 +1,66 @@
+{
+  "No fluctuations": {
+    "unconditional_rmse": 0.2824215019468326,
+    "conditional_rmse": 0.2669269563007828,
+    "mean_any_record": 1.0,
+    "mean_both_if_no_latch": 0.42857142857142855,
+    "mean_tie": 0.047619047619047616,
+    "dark_any_record": 0.0
+  },
+  "Source variations": {
+    "unconditional_rmse": 0.23502998162341918,
+    "conditional_rmse": 0.23502998162341918,
+    "mean_any_record": 1.0,
+    "mean_both_if_no_latch": 0.43890476190476185,
+    "mean_tie": 0.0,
+    "dark_any_record": 0.0
+  },
+  "Surface vacuum surrogate": {
+    "unconditional_rmse": 0.24286761532042217,
+    "conditional_rmse": 0.24286761532042217,
+    "mean_any_record": 1.0,
+    "mean_both_if_no_latch": 0.4689404761904762,
+    "mean_tie": 0.0,
+    "dark_any_record": 0.0
+  },
+  "Thermal equilibrium noise": {
+    "unconditional_rmse": 0.2057458557124715,
+    "conditional_rmse": 0.2057458557124715,
+    "mean_any_record": 1.0,
+    "mean_both_if_no_latch": 0.5279642857142857,
+    "mean_tie": 0.0,
+    "dark_any_record": 0.0
+  },
+  "Combined": {
+    "unconditional_rmse": 0.18326283817823746,
+    "conditional_rmse": 0.18326283817823746,
+    "mean_any_record": 1.0,
+    "mean_both_if_no_latch": 0.5525952380952381,
+    "mean_tie": 0.0,
+    "dark_any_record": 0.00024999999999997247
+  },
+  "Combined correlated surface": {
+    "unconditional_rmse": 0.18785228809587903,
+    "conditional_rmse": 0.18785228809587903,
+    "mean_any_record": 1.0,
+    "mean_both_if_no_latch": 0.5550238095238095,
+    "mean_tie": 0.0,
+    "dark_any_record": 0.0
+  },
+  "Combined shifted surface": {
+    "unconditional_rmse": 0.18871620637247624,
+    "conditional_rmse": 0.18871620637247624,
+    "mean_any_record": 1.0,
+    "mean_both_if_no_latch": 0.5436428571428571,
+    "mean_tie": 0.0,
+    "dark_any_record": 0.0
+  },
+  "Combined biased thresholds": {
+    "unconditional_rmse": 0.19438399343763338,
+    "conditional_rmse": 0.19438399343763338,
+    "mean_any_record": 1.0,
+    "mean_both_if_no_latch": 0.55275,
+    "mean_tie": 0.0,
+    "dark_any_record": 0.0
+  }
+}

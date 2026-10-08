@@ -1,0 +1,12 @@
+{
+  "vacuum_filtered_variance_predicted": 0.0018821525317388743,
+  "vacuum_filtered_variance_measured": 0.0018697957324819141,
+  "thermal_variance_target": 0.0064,
+  "thermal_variance_measured": 0.006388037097683064,
+  "primary_histories_per_case": 4000,
+  "primary_state_values": 21,
+  "primary_cases": 8,
+  "dt": 0.04,
+  "seed": 20261004,
+  "note": "Common random histories across input states and thresholds; pointwise trials independent. Refinement uses independent ensembles."
+}

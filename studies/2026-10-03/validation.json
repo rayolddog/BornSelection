@@ -1,0 +1,41 @@
+{
+  "simultaneous_95pct_absolute_error_bound": 0.023732742984709364,
+  "gof": {
+    "Unbiased / Gaussian": {
+      "chi_square": 31.919278536526875,
+      "df": 39,
+      "p_value": 0.7821177218252939
+    },
+    "Unbiased / Laplace": {
+      "chi_square": 56.83613340734832,
+      "df": 39,
+      "p_value": 0.0323444103707957
+    },
+    "Unbiased / binary": {
+      "chi_square": 39.81930970920308,
+      "df": 39,
+      "p_value": 0.4334598896240233
+    },
+    "Memory / Gaussian rho=.9": {
+      "chi_square": 91688.21779733087,
+      "df": 39,
+      "p_value": 0.0
+    },
+    "Amplifier / Gaussian gain=4": {
+      "chi_square": 13096.910796207072,
+      "df": 39,
+      "p_value": 0.0
+    },
+    "Amplitude coordinate / Gaussian": {
+      "chi_square": 38977.73531845567,
+      "df": 39,
+      "p_value": 0.0
+    },
+    "Vacuum-spectrum kick / bistable": {
+      "chi_square": 2421.8676934070404,
+      "df": 39,
+      "p_value": 0.0
+    }
+  },
+  "all_checks_passed": true
+}

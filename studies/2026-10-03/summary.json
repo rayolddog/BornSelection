@@ -1,0 +1,35 @@
+{
+  "seed": 20261003,
+  "n_per_state": 8000,
+  "states": 41,
+  "models": {
+    "Unbiased / Gaussian": {
+      "rmse": 0.0042203954559825434,
+      "max_error": 0.011249999999999982
+    },
+    "Unbiased / Laplace": {
+      "rmse": 0.005360196574480567,
+      "max_error": 0.013124999999999942
+    },
+    "Unbiased / binary": {
+      "rmse": 0.004655019582888267,
+      "max_error": 0.012124999999999997
+    },
+    "Memory / Gaussian rho=.9": {
+      "rmse": 0.14373136278972048,
+      "max_error": 0.22700000000000004
+    },
+    "Amplifier / Gaussian gain=4": {
+      "rmse": 0.07873220133743894,
+      "max_error": 0.11575000000000002
+    },
+    "Amplitude coordinate / Gaussian": {
+      "rmse": 0.10536766350353949,
+      "max_error": 0.1538750000000001
+    },
+    "Vacuum-spectrum kick / bistable": {
+      "rmse": 0.033513892960106303,
+      "max_error": 0.05049999999999999
+    }
+  }
+}

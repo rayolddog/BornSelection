@@ -1,0 +1,277 @@
+
+silicon_commit_recompute.py — discharge ledger open item #2 (E-16): recompute Paper 1
+section 6.1's timescale ladder for SILICON under the first-irreversibility definition of
+commitment, which was fixed on 2026-09-02 BEFORE this script was written.
+
+THE DEFINITION (ledger E-16, uncertainty #2, resolved):
+    tau_commit is the time from capture at which the deposited excitation ceases to be
+    coherently returnable to the common field. First irreversibility. Not the avalanche,
+    not the electrical pulse, not the readout.
+
+WHAT PROTECTS A SHARE, per section 6.1 itself: the absence of final states below the
+registration threshold. In a gapped absorber a site holding share s_i carries
+e_i = s_i * E_photon, and there is NO real final state while e_i < E_gap, i.e. while
+
+    s_i < theta = E_gap / E_photon.
+
+Above theta a real electron-hole pair (plus phonons carrying e_i - E_gap) IS available, and
+the interband vertex plus thermalisation runs on the device-physics clock. That is the first
+irreversibility for a site above theta. So the fixed definition, applied honestly, gives
+silicon TWO regimes on the share axis:
+
+    s < theta : protected  (no channel; the only exit is return to the field)
+    s > theta : exposed    (tau_commit = vertex dephasing + thermalisation, 10 fs - 1 ps)
+
+and section 6.1's quoted ns-us is neither. It is the avalanche-and-quench cycle, downstream.
+
+WHAT IS COMPUTED, for silicon at several wavelengths and, by the same rule, for the two
+comparison detectors already in the ledger:
+
+ (1) The whole-game top rung, tau_game / tau_commit, as E-16 computed it for the SNSPD.
+ (2) The EXPOSED-WINDOW top rung. Only a site above theta can commit, and under a closed
+     pot with theta >= 1/2 at most one site is ever above theta; the exposure is the
+     leader's final climb from theta to 1. Under section 6.1's own diffusive log-share
+     scaling that leg takes t_exp ~ 2 ln^2(1/theta) / Gamma. This is the physically
+     relevant comparison. It is applied to the NbN case too, so both detectors are judged
+     by one rule rather than the silicon by a kinder one.
+ (3) The instant-commit bias: the outcome if commitment fired the moment a site crossed
+     theta (the exposed reading at its worst). This is section 6.1's own remark that
+     "stopping at any finite share introduces a computable O(1-threshold) bias", made
+     explicit for a two-site split by the martingale hitting probabilities.
+ (4) Whether the closed pot can pay for TWO real sub-gap excitations, E_photon > 2 E_gap.
+     Where it can, the gap does not enforce exclusivity and P4(a) must do so as a premise.
+
+ALL DEVICE TIMESCALES ARE LITERATURE-TYPICAL, NOT MEASUREMENTS FROM THIS PROGRAM. The
+silicon figures follow the SPAD device-physics review in
+traycer_artifacts/debates/spad-event-cascade/round-01/device-physics (three-event
+structure: photon-annihilation irreversibility fs-100 fs; which-site distinguishability
+10 fs-1 ps; field-driven seed unrecoverability ~1 ps). Uncertain inputs are flagged.
+The exposed-window leg time inherits E-15's caveat: it uses the same continuum diffusive
+scaling section 6.1 uses, at a leg length of about one exchange step, where that scaling is
+least trustworthy.
+
+
+==============================================================================
+SILICON SPAD @ 500 nm, 300 K  (section 6.1's own detector)
+==============================================================================
+  validation: paper quotes tau_c 10-70 fs, tau_game 12-81 ps; reproduced below
+  E_photon        2.480 eV   E_gap   1.1200 eV   ratio      2.2
+  theta           0.452   (share below which NO real final state exists)
+  exposed axis    54.8 % of the share axis has a real final state
+  pot pays for   2 real sub-gap excitation(s)   -> two-pair channel OPEN; gap does not enforce exclusivity
+  Gamma          1.5e+13 - 1.0e+14 s^-1     N = 5e+10   2 ln^2 N = 1214
+  tau_c             10.0 fs -    66.7 fs
+  tau_game         12.14 ps -   80.92 ps
+  t_exposed         12.6 fs -    84.2 fs   (leader's climb theta -> 1; 0.79 log-units; ~1.3 exchange steps)
+  tau_commit        10.0 fs -    1.00 ps   (first irreversibility, exposed site)
+  [downstream       1.00 ns -    1.00 us   section 6.1's quoted figure: avalanche/quench cycle, NOT commitment]
+
+  MIDDLE rung  tau_game / tau_c         =     1214   (Gamma-invariant)  OK
+  TOP rung (whole game)   tau_game / tau_commit =   12.1379 - 8092.0     INVERTED - commitment precedes the game across the whole input range
+  TOP rung (exposed leg)  t_exposed / tau_commit =    0.0126 - 8.42       MARGINAL - range straddles unity
+
+  Instant-commit bias (commitment fires the moment a share crosses theta):
+     Born 0.60  ->  undefined: both sites can be exposed at once (theta < 1/2)
+     Born 0.80  ->  undefined: both sites can be exposed at once (theta < 1/2)
+     Born 0.95  ->  undefined: both sites can be exposed at once (theta < 1/2)
+
+==============================================================================
+SILICON SPAD @ 405 nm, 300 K
+==============================================================================
+  ratio > 2: the closed pot can pay for two real pairs
+  E_photon        3.061 eV   E_gap   1.1200 eV   ratio      2.7
+  theta           0.366   (share below which NO real final state exists)
+  exposed axis    63.4 % of the share axis has a real final state
+  pot pays for   2 real sub-gap excitation(s)   -> two-pair channel OPEN; gap does not enforce exclusivity
+  Gamma          1.5e+13 - 1.0e+14 s^-1     N = 5e+10   2 ln^2 N = 1214
+  tau_c             10.0 fs -    66.7 fs
+  tau_game         12.14 ps -   80.92 ps
+  t_exposed         20.2 fs -   134.8 fs   (leader's climb theta -> 1; 1.01 log-units; ~2.0 exchange steps)
+  tau_commit        10.0 fs -    1.00 ps   (first irreversibility, exposed site)
+  [downstream       1.00 ns -    1.00 us   section 6.1's quoted figure: avalanche/quench cycle, NOT commitment]
+
+  MIDDLE rung  tau_game / tau_c         =     1214   (Gamma-invariant)  OK
+  TOP rung (whole game)   tau_game / tau_commit =   12.1379 - 8092.0     INVERTED - commitment precedes the game across the whole input range
+  TOP rung (exposed leg)  t_exposed / tau_commit =    0.0202 - 13.48      MARGINAL - range straddles unity
+
+  Instant-commit bias (commitment fires the moment a share crosses theta):
+     Born 0.60  ->  undefined: both sites can be exposed at once (theta < 1/2)
+     Born 0.80  ->  undefined: both sites can be exposed at once (theta < 1/2)
+     Born 0.95  ->  undefined: both sites can be exposed at once (theta < 1/2)
+
+==============================================================================
+SILICON SPAD @ 650 nm, 300 K
+==============================================================================
+  ratio < 2: at most one site can hold a real final state at a time
+  E_photon        1.907 eV   E_gap   1.1200 eV   ratio      1.7
+  theta           0.587   (share below which NO real final state exists)
+  exposed axis    41.3 % of the share axis has a real final state
+  pot pays for   1 real sub-gap excitation(s)   -> gap enforces exclusivity
+  Gamma          1.5e+13 - 1.0e+14 s^-1     N = 5e+10   2 ln^2 N = 1214
+  tau_c             10.0 fs -    66.7 fs
+  tau_game         12.14 ps -   80.92 ps
+  t_exposed          5.7 fs -    37.8 fs   (leader's climb theta -> 1; 0.53 log-units; ~0.6 exchange steps)
+  tau_commit        10.0 fs -    1.00 ps   (first irreversibility, exposed site)
+  [downstream       1.00 ns -    1.00 us   section 6.1's quoted figure: avalanche/quench cycle, NOT commitment]
+
+  MIDDLE rung  tau_game / tau_c         =     1214   (Gamma-invariant)  OK
+  TOP rung (whole game)   tau_game / tau_commit =   12.1379 - 8092.0     INVERTED - commitment precedes the game across the whole input range
+  TOP rung (exposed leg)  t_exposed / tau_commit =    0.0057 - 3.78       MARGINAL - range straddles unity
+
+  Instant-commit bias (commitment fires the moment a share crosses theta):
+     Born 0.60  ->  P1 = 1.000   (deviation +0.400)
+     Born 0.80  ->  P1 = 1.000   (deviation +0.200)
+     Born 0.95  ->  P1 = 1.000   (deviation +0.050)
+
+==============================================================================
+SILICON SPAD @ 800 nm, 300 K
+==============================================================================
+  ratio < 2: at most one site can hold a real final state at a time
+  E_photon        1.550 eV   E_gap   1.1200 eV   ratio      1.4
+  theta           0.723   (share below which NO real final state exists)
+  exposed axis    27.7 % of the share axis has a real final state
+  pot pays for   1 real sub-gap excitation(s)   -> gap enforces exclusivity
+  Gamma          1.5e+13 - 1.0e+14 s^-1     N = 5e+10   2 ln^2 N = 1214
+  tau_c             10.0 fs -    66.7 fs
+  tau_game         12.14 ps -   80.92 ps
+  t_exposed          2.1 fs -    14.1 fs   (leader's climb theta -> 1; 0.32 log-units; ~0.2 exchange steps)
+  tau_commit        10.0 fs -    1.00 ps   (first irreversibility, exposed site)
+  [downstream       1.00 ns -    1.00 us   section 6.1's quoted figure: avalanche/quench cycle, NOT commitment]
+
+  MIDDLE rung  tau_game / tau_c         =     1214   (Gamma-invariant)  OK
+  TOP rung (whole game)   tau_game / tau_commit =   12.1379 - 8092.0     INVERTED - commitment precedes the game across the whole input range
+  TOP rung (exposed leg)  t_exposed / tau_commit =    0.0021 - 1.41       MARGINAL - range straddles unity
+
+  Instant-commit bias (commitment fires the moment a share crosses theta):
+     Born 0.60  ->  P1 = 0.725   (deviation +0.125)
+     Born 0.80  ->  P1 = 1.000   (deviation +0.200)
+     Born 0.95  ->  P1 = 1.000   (deviation +0.050)
+
+==============================================================================
+SILICON SPAD @ 1000 nm, 300 K
+==============================================================================
+  ratio < 2: at most one site can hold a real final state at a time
+  E_photon        1.240 eV   E_gap   1.1200 eV   ratio      1.1
+  theta           0.903   (share below which NO real final state exists)
+  exposed axis     9.7 % of the share axis has a real final state
+  pot pays for   1 real sub-gap excitation(s)   -> gap enforces exclusivity
+  Gamma          1.5e+13 - 1.0e+14 s^-1     N = 5e+10   2 ln^2 N = 1214
+  tau_c             10.0 fs -    66.7 fs
+  tau_game         12.14 ps -   80.92 ps
+  t_exposed          0.2 fs -     1.4 fs   (leader's climb theta -> 1; 0.10 log-units; ~0.0 exchange steps)
+  tau_commit        10.0 fs -    1.00 ps   (first irreversibility, exposed site)
+  [downstream       1.00 ns -    1.00 us   section 6.1's quoted figure: avalanche/quench cycle, NOT commitment]
+
+  MIDDLE rung  tau_game / tau_c         =     1214   (Gamma-invariant)  OK
+  TOP rung (whole game)   tau_game / tau_commit =   12.1379 - 8092.0     INVERTED - commitment precedes the game across the whole input range
+  TOP rung (exposed leg)  t_exposed / tau_commit =    0.0002 - 0.14       MARGINAL - range straddles unity
+
+  Instant-commit bias (commitment fires the moment a share crosses theta):
+     Born 0.60  ->  P1 = 0.624   (deviation +0.024)
+     Born 0.80  ->  P1 = 0.872   (deviation +0.072)
+     Born 0.95  ->  P1 = 1.000   (deviation +0.050)
+
+==============================================================================
+InGaAs SPAD @ 1550 nm  (Gamma and commit taken as silicon's - UNCERTAIN, flagged)
+==============================================================================
+  near-gap operation: theta ~ 0.94, the exposed leg is a fraction of one exchange step
+  E_photon        0.800 eV   E_gap   0.7500 eV   ratio      1.1
+  theta           0.938   (share below which NO real final state exists)
+  exposed axis     6.2 % of the share axis has a real final state
+  pot pays for   1 real sub-gap excitation(s)   -> gap enforces exclusivity
+  Gamma          1.5e+13 - 1.0e+14 s^-1     N = 5e+10   2 ln^2 N = 1214
+  tau_c             10.0 fs -    66.7 fs
+  tau_game         12.14 ps -   80.92 ps
+  t_exposed          0.1 fs -     0.6 fs   (leader's climb theta -> 1; 0.06 log-units; ~0.0 exchange steps)
+  tau_commit        10.0 fs -    1.00 ps   (first irreversibility, exposed site)
+  [downstream       1.00 ns -    1.00 us   section 6.1's quoted figure: avalanche/quench cycle, NOT commitment]
+
+  MIDDLE rung  tau_game / tau_c         =     1214   (Gamma-invariant)  OK
+  TOP rung (whole game)   tau_game / tau_commit =   12.1379 - 8092.0     INVERTED - commitment precedes the game across the whole input range
+  TOP rung (exposed leg)  t_exposed / tau_commit =    0.0001 - 0.06       OK - game finishes first
+
+  Instant-commit bias (commitment fires the moment a share crosses theta):
+     Born 0.60  ->  P1 = 0.614   (deviation +0.014)
+     Born 0.80  ->  P1 = 0.843   (deviation +0.043)
+     Born 0.95  ->  P1 = 1.000   (deviation +0.050)
+
+==============================================================================
+NbN SNSPD @ 1550 nm, ~2 K  -  commit = hotspot -> resistive (10-50 ps), as E-16 logged
+==============================================================================
+  E_gap = 1.5 meV as in the E-16 table (single-particle gap Delta; 2Delta would halve the ratio)
+  E_photon        0.800 eV   E_gap   0.0015 eV   ratio    533.3
+  theta           0.002   (share below which NO real final state exists)
+  exposed axis    99.8 % of the share axis has a real final state
+  pot pays for   533 real sub-gap excitation(s)   -> two-pair channel OPEN; gap does not enforce exclusivity
+  Gamma          5.0e+10 - 1.0e+11 s^-1     N = 1e+06   2 ln^2 N = 382
+  tau_c            10.00 ps -   20.00 ps
+  tau_game          3.82 ns -    7.63 ns
+  t_exposed       788.52 ps -    1.58 ns   (leader's climb theta -> 1; 6.28 log-units; ~78.9 exchange steps)
+  tau_commit       10.00 ps -   50.00 ps   (first irreversibility, exposed site)
+
+  MIDDLE rung  tau_game / tau_c         =      382   (Gamma-invariant)  OK
+  TOP rung (whole game)   tau_game / tau_commit =   76.3473 - 763.5      INVERTED - commitment precedes the game across the whole input range
+  TOP rung (exposed leg)  t_exposed / tau_commit =   15.7704 - 157.70     INVERTED - commitment precedes the game across the whole input range
+
+  Instant-commit bias (commitment fires the moment a share crosses theta):
+     Born 0.60  ->  undefined: both sites can be exposed at once (theta < 1/2)
+     Born 0.80  ->  undefined: both sites can be exposed at once (theta < 1/2)
+     Born 0.95  ->  undefined: both sites can be exposed at once (theta < 1/2)
+
+==============================================================================
+NbN SNSPD @ 1550 nm, ~2 K  -  commit = quasiparticle cascade onset (0.1-1 ps)  [UNCERTAIN]
+==============================================================================
+  the strict first-irreversibility analogue of silicon's vertex+thermalisation clock
+  E_photon        0.800 eV   E_gap   0.0015 eV   ratio    533.3
+  theta           0.002   (share below which NO real final state exists)
+  exposed axis    99.8 % of the share axis has a real final state
+  pot pays for   533 real sub-gap excitation(s)   -> two-pair channel OPEN; gap does not enforce exclusivity
+  Gamma          5.0e+10 - 1.0e+11 s^-1     N = 1e+06   2 ln^2 N = 382
+  tau_c            10.00 ps -   20.00 ps
+  tau_game          3.82 ns -    7.63 ns
+  t_exposed       788.52 ps -    1.58 ns   (leader's climb theta -> 1; 6.28 log-units; ~78.9 exchange steps)
+  tau_commit       100.0 fs -    1.00 ps   (first irreversibility, exposed site)
+
+  MIDDLE rung  tau_game / tau_c         =      382   (Gamma-invariant)  OK
+  TOP rung (whole game)   tau_game / tau_commit = 3817.3666 - 76347.3    INVERTED - commitment precedes the game across the whole input range
+  TOP rung (exposed leg)  t_exposed / tau_commit =  788.5212 - 15770.42   INVERTED - commitment precedes the game across the whole input range
+
+  Instant-commit bias (commitment fires the moment a share crosses theta):
+     Born 0.60  ->  undefined: both sites can be exposed at once (theta < 1/2)
+     Born 0.80  ->  undefined: both sites can be exposed at once (theta < 1/2)
+     Born 0.95  ->  undefined: both sites can be exposed at once (theta < 1/2)
+
+==============================================================================
+SUMMARY  (top rung: needs << 1; whole-game vs exposed-leg accounting)
+==============================================================================
+  detector                                                    ratio  theta pairs       whole-game      exposed-leg bias@0.8
+  SILICON SPAD @ 500 nm, 300 K  (section 6.1's own detector)    2.2  0.452     2  12.138-8092.0     0.013-8.42          n/a
+  SILICON SPAD @ 405 nm, 300 K                                  2.7  0.366     2  12.138-8092.0     0.020-13.48         n/a
+  SILICON SPAD @ 650 nm, 300 K                                  1.7  0.587     1  12.138-8092.0     0.006-3.78        1.000
+  SILICON SPAD @ 800 nm, 300 K                                  1.4  0.723     1  12.138-8092.0     0.002-1.41        1.000
+  SILICON SPAD @ 1000 nm, 300 K                                 1.1  0.903     1  12.138-8092.0     0.000-0.14        0.872
+  InGaAs SPAD @ 1550 nm  (Gamma and commit taken as silicon'    1.1  0.938     1  12.138-8092.0     0.000-0.06        0.843
+  NbN SNSPD @ 1550 nm, ~2 K  -  commit = hotspot -> resistiv  533.3  0.002   533  76.347-763.5     15.770-157.70        n/a
+  NbN SNSPD @ 1550 nm, ~2 K  -  commit = quasiparticle casca  533.3  0.002   533 3817.367-76347.3  788.521-15770.42      n/a
+
+READING THE TABLE
+  * 'whole-game' is the comparison E-16 used for the SNSPD. On that accounting silicon
+    inverts too, by one to four orders. Section 6.1's "two to four orders to spare at every
+    rung" does not survive its own detector under the fixed definition.
+  * 'exposed-leg' is the physically relevant comparison: only a site above theta can commit,
+    and for theta >= 1/2 that is one site, during its final climb. On that accounting
+    silicon is MARGINAL at every visible wavelength (the range straddles unity by about an
+    order each way), closing toward safe only near the band edge. The SNSPD stays INVERTED
+    on either reading of its commitment, because theta ~ 0.002 makes its exposed leg
+    ~79 exchange steps (0.8-1.6 ns) against a 10-50 ps commit. E-16's whole-game accounting
+    overstated the exposure for both detectors; the asymmetry between them survives it,
+    weakened from "safe by 2-4 orders vs inverted by 2-3" to "straddling unity vs inverted
+    by 1-2 (hotspot) or 3-4 (cascade)".
+  * 'bias@0.8' is the two-site outcome for an 80/20 split if commitment were instant above
+    theta. It is large at every wavelength (even at InGaAs's theta = 0.94 it is +0.04),
+    so the exposed reading is only compatible with routine SPAD splitting-ratio data if the
+    exposed leg is short compared with tau_commit, i.e. if the marginal ratio sits at the
+    low end of its range. That is a constraint, not a refutation.
+  * 'pairs' >= 2 (silicon below 553 nm) means the gap does not block a second real
+    excitation; exclusivity there rests on P4(a) as a premise, not on the level structure.
+

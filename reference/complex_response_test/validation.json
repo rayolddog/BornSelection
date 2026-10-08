@@ -1,0 +1,32 @@
+{
+  "verified_main_histories": 84000,
+  "verified_main_logs": 14,
+  "probability_conservation": true,
+  "max_equal_response_capture_error": 3.932487124824746e-08,
+  "detuned_checks": [
+    {
+      "case": "detuning_step",
+      "fit": {
+        "n": 4880,
+        "tv": 0.07721013875983612,
+        "tv_null95": 0.08666234836498352,
+        "pearson": 241.53105620401357,
+        "p": 0.6431356864313569
+      },
+      "quadrature_change": 6.180104344943871e-11,
+      "coarse_error": 1.3764073889324657e-07
+    },
+    {
+      "case": "detuning_disorder",
+      "fit": {
+        "n": 5308,
+        "tv": 0.07252176750172273,
+        "tv_null95": 0.0849723006316976,
+        "pearson": 277.0588639078498,
+        "p": 0.1698830116988301
+      },
+      "quadrature_change": 7.379812906604943e-11,
+      "coarse_error": 1.8097468516310722e-07
+    }
+  ]
+}

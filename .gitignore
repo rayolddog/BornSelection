@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.log
+
+# Large/generated runs should be regenerated or deliberately added with Git LFS.
+models/adler_born_two_channel/results/
+models/adler_two_channel_exploratory/logs/
+models/adler_two_channel_exploratory/spectral_runs/

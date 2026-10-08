@@ -1,0 +1,82 @@
+[
+  {
+    "case": "uniform_double",
+    "paired_histories": 200,
+    "changes": [
+      {
+        "max_record_weight_change": 3.0606162049195973e-10,
+        "winner_changes": [
+          0,
+          0
+        ]
+      },
+      {
+        "max_record_weight_change": 8.038822732481243e-11,
+        "winner_changes": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "case": "independent_strong",
+    "paired_histories": 200,
+    "changes": [
+      {
+        "max_record_weight_change": 1.0979021246478038e-07,
+        "winner_changes": [
+          0,
+          1
+        ]
+      },
+      {
+        "max_record_weight_change": 2.7448531529292164e-08,
+        "winner_changes": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "case": "mirror_normal",
+    "paired_histories": 200,
+    "changes": [
+      {
+        "max_record_weight_change": 2.2153842203255503e-07,
+        "winner_changes": [
+          0,
+          0
+        ]
+      },
+      {
+        "max_record_weight_change": 5.5408612253948775e-08,
+        "winner_changes": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "case": "detuning_step",
+    "paired_histories": 200,
+    "changes": [
+      {
+        "max_record_weight_change": 1.0321880602494338e-07,
+        "winner_changes": [
+          0,
+          0
+        ]
+      },
+      {
+        "max_record_weight_change": 2.580122974819854e-08,
+        "winner_changes": [
+          0,
+          0
+        ]
+      }
+    ]
+  }
+]

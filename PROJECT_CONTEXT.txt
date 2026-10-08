@@ -1,0 +1,30 @@
+BornSelection — project context, saved 2026-10-03
+
+Purpose: investigate microscopic photon-to-detector complex excitation, stochastic commitment, and whether outcome-basin measures reproduce Born weights without inserting outcome probabilities by hand.
+
+CURRENT REFERENCE MODEL
+Claude's linear response plus a separate random first-event race is the working reference. Matched response z_j=psi_j F(t), with event rate alpha*|z_j|^2 and independent exponential thresholds in cumulative hazard, gives exact Born proportions conditional on an event. The event law and physical suppression remain assumptions, not a derived vacuum mechanism.
+
+CRITICAL CORRECTION
+The later fixed/equal-threshold simulations in studies/2026-10-03 are negative controls. They reproduce the known stronger-site preference and do not refute the earlier successful reference model. Complex interference was included. Post-first-event stopping cannot alter the first winner; pre-event competitive feedback may distort the weights. Do not automatically add stronger inhibition as a solution.
+
+COMPLETED WORK
+1. Initial stochastic basin survey: unbiased martingale benchmarks reproduce Born weights because of assumed conservation; other couplings fail.
+2. Minimal quantized single-photon absorption: tracks two complex material excitation channels and relative coherence; recording interface phenomenological.
+3. Surface/thermal threshold basins: samples classical complex Gaussian surface surrogate and OU thermal fluctuations; time-dependent basins, substantial non-Born bias and double crossings. Not calibrated semiconductor QED.
+4. Recovered Claude precursor and September 28 code/results review: 84,000 saved histories; successful linear-response event races versus failed equal-power thresholds. These old experiments were reviewed, not rerun here.
+
+NEXT SCIENTIFIC QUESTION
+Can physically justified semiconductor/vacuum microstates produce the successful commitment/survival law? Preserve linear complex response as the reference. Keep standard quantum assumptions, illustrative surrogates, and novel hypotheses explicit. A Gaussian variable squared can mathematically generate an exponential threshold, but does not itself derive a physical detector law.
+
+USER CONTEXT
+The user selected semiconductor photon-counting detectors as the physical setting. Material, geometry, wavelength, temperature and bias have not been specified. They emphasize constructive/destructive complex interference and suppression via shared-excitation capture. They prefer clear physical explanations with limited formalism.
+
+PROVENANCE
+Current chat: 01a1023c-f3ed-7bb3-aaa9-bc0b07783a3c, Test QED-Inspired Born Basins.
+Earlier review chat: 01a0e92d-96ca-7fa0-9fe8-76443a0c4498, Review Claude physics recordings.
+Referenced ChatGPT conversation: 6ac108d0-0fec-83e9-bdea-fca6b4f73cd0, Explaining Vacuum Randomness.
+Source paths and byte checksums are recorded in source_manifest.json. Original files were copied, not moved or modified. This context is a summary, not a full chat transcript.
+
+PROJECT STATUS
+Local project folder created. App registration and moving this chat into the project remain manual because no project-creation connector is available and computer control of Codex is restricted.

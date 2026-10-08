@@ -1,0 +1,377 @@
+[
+  {
+    "file": "studies/2026-10-03/frequencies.png",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/frequencies.png",
+    "sha256": "36113a4ef36014db674cc272246b97932646dceadc32cce6c8781fdfb80cc08e"
+  },
+  {
+    "file": "studies/2026-10-03/sensitivity.png",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/sensitivity.png",
+    "sha256": "53cdccfb23cbbfca6c1c2f8ce8f9be2612f6eece74a8ed88faf6c5526ac7813c"
+  },
+  {
+    "file": "studies/2026-10-03/summary.json",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/summary.json",
+    "sha256": "99e1e1a3786d5b8b240320fa02b6adac3df3e76011b574e4126b0100cd9802b2"
+  },
+  {
+    "file": "studies/2026-10-03/verify_results.py",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/verify_results.py",
+    "sha256": "6b4a2b3f935fa5e141d815b1ac1bcdde47942db3ef2cea77bd83afdc0d2033bf"
+  },
+  {
+    "file": "studies/2026-10-03/claude_linear_model_review.html",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/claude_linear_model_review.html",
+    "sha256": "2fbdfe5953c163e740caa2e8ff3e9e558bcefdcbca113d640be08bd9317846ad"
+  },
+  {
+    "file": "studies/2026-10-03/microscopic_transfer.png",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/microscopic_transfer.png",
+    "sha256": "c1a7750ef588ef03742d2fc4939399f6f2e4da7c9de52ef5f764d44e09cd5041"
+  },
+  {
+    "file": "studies/2026-10-03/microscopic_summary.json",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/microscopic_summary.json",
+    "sha256": "42e953c6b2eb1acf39301ab29b63e0ed2b66f082bc6032f9c4b00de7b26727af"
+  },
+  {
+    "file": "studies/2026-10-03/microscopic_record.csv",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/microscopic_record.csv",
+    "sha256": "1b17fe08cfe7d4d84e5c3052c6a01e58609c5cae7eba503673c93e1a29eb0550"
+  },
+  {
+    "file": "studies/2026-10-03/microscopic_transfer.svg",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/microscopic_transfer.svg",
+    "sha256": "81c72a69a17b03cc4107a9ffb93577b86c29097f0acc2b79fa6e26c61484ba70"
+  },
+  {
+    "file": "studies/2026-10-03/microscopic_absorption.csv",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/microscopic_absorption.csv",
+    "sha256": "7bc02e7202b48f7876d3f0d57ce04e0d30e701275bc175ec04b2e0e4fca41c4e"
+  },
+  {
+    "file": "studies/2026-10-03/simulate.py",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/simulate.py",
+    "sha256": "d94fbf7f6486f70796bd2b216df4d89c284a499d64e7c97aa539819a45a6524f"
+  },
+  {
+    "file": "studies/2026-10-03/surface_basin_maps.png",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/surface_basin_maps.png",
+    "sha256": "ed7be744e2007283160200071ce0c7921726d08dbf2abd6a5f6587a9241afb32"
+  },
+  {
+    "file": "studies/2026-10-03/surface_basins.py",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/surface_basins.py",
+    "sha256": "d7d1dd337f848b626a8ba2c9d7cbcda819521458248308246870ebe9729fd6aa"
+  },
+  {
+    "file": "studies/2026-10-03/frequencies.svg",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/frequencies.svg",
+    "sha256": "bdee364109037db15d30608caa23249751fb023d285590079b0c9ead7d27e282"
+  },
+  {
+    "file": "studies/2026-10-03/surface_basin_validation.json",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/surface_basin_validation.json",
+    "sha256": "5fbb5b23f8f9ccbdea2ba85ef5ac514b86a0e1304321adf6266dee7d23b7ca89"
+  },
+  {
+    "file": "studies/2026-10-03/microscopic_report.html",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/microscopic_report.html",
+    "sha256": "a7373ad2ea4b58b52353cc19429452d6d49091babf35f91cd7c5deb86793a231"
+  },
+  {
+    "file": "studies/2026-10-03/surface_basin_report.html",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/surface_basin_report.html",
+    "sha256": "e135731a5d3526b8f4cd136293d59a9bdd936e69891d3854e43abce897e1f846"
+  },
+  {
+    "file": "studies/2026-10-03/surface_basin_counts.csv",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/surface_basin_counts.csv",
+    "sha256": "cdbcbbeac0830ffe4609ef2eead983ef6ae7efdf28f3819cfa47fe7d54eeccf4"
+  },
+  {
+    "file": "studies/2026-10-03/basin_measures.csv",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/basin_measures.csv",
+    "sha256": "f756508d041b7624f43fd69af8ec941dd2ee2d1c86e0a73ee1ba7569fa45fbe2"
+  },
+  {
+    "file": "studies/2026-10-03/validation.json",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/validation.json",
+    "sha256": "2abac109fe49c8f27201d0ad6e911e027733f31c6309703ca76f4e15d4ce9156"
+  },
+  {
+    "file": "studies/2026-10-03/surface_basin_summary.json",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/surface_basin_summary.json",
+    "sha256": "b245c57c82b7e5c596da51085eb24a1f371efdd07c1d111df6e98f516a3c5558"
+  },
+  {
+    "file": "studies/2026-10-03/basins.png",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/basins.png",
+    "sha256": "68e9e79829ed6c366a4deed628d5fb5b1d8803c674f9c36c40e8245b7a26ae97"
+  },
+  {
+    "file": "studies/2026-10-03/microscopic_transfer.py",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/microscopic_transfer.py",
+    "sha256": "e15223a806780e7a2c77f54be524490fcb569b2cd8f93645c9e4defa4c50c544"
+  },
+  {
+    "file": "studies/2026-10-03/report.html",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/report.html",
+    "sha256": "b5effa085e51177fd5da82fa06e7dc32495414cc4d60b39430fbfb3522187670"
+  },
+  {
+    "file": "studies/2026-10-03/sensitivity.csv",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/sensitivity.csv",
+    "sha256": "55a2528d572cec267c27d62b54a4526ae61ed2dc7aac179b868635d08e5a3e45"
+  },
+  {
+    "file": "studies/2026-10-03/surface_basins.png",
+    "source": "/Users/john-bramble/Documents/Codex/2026-10-03/referenced-chatgpt-conversation-this-is-an/outputs/surface_basins.png",
+    "sha256": "6ad00929885cf3bd6cba9590aef8c23cd9b5acffcd71bd97244f122b885e9d51"
+  },
+  {
+    "file": "reference/complex_response_test/mirror_normal_check_0.05_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/mirror_normal_check_0.05_events.csv.gz",
+    "sha256": "6882f7fae6f19e7d9beaca922a0e37299701fb7c8098e72cf73b5d39f4ff3b28"
+  },
+  {
+    "file": "reference/complex_response_test/fast_response_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/fast_response_events.csv.gz",
+    "sha256": "f7751b787ce791a2c1a5129030cb98e9ac89b69816baed6bbd73b15a1c5294c9"
+  },
+  {
+    "file": "reference/complex_response_test/run.py",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/run.py",
+    "sha256": "f83ca67075851b686d7e3650ab5d9d5609263279a164be289d1253d7ca8922ef"
+  },
+  {
+    "file": "reference/complex_response_test/mirror_parallel_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/mirror_parallel_events.csv.gz",
+    "sha256": "e6d6fc789d5870239f0abd37f2326f2c34da023fc5735bfb6b3982694622df49"
+  },
+  {
+    "file": "reference/complex_response_test/detuning_step_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/detuning_step_events.csv.gz",
+    "sha256": "a7ee85e79ffc18fc513acf215e6894b6c212e64f0f0f8b9254021684d33710c2"
+  },
+  {
+    "file": "reference/complex_response_test/mirror_normal_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/mirror_normal_events.csv.gz",
+    "sha256": "09e2a206c0ffe536a7183c4fac3210bc2257f28121862b783cba108eba000f52"
+  },
+  {
+    "file": "reference/complex_response_test/mirror_normal_check_0.025_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/mirror_normal_check_0.025_events.csv.gz",
+    "sha256": "41189dab246379140e8e9f459206afb1a84199dadfdb5a1dc59bedf1c6e07b37"
+  },
+  {
+    "file": "reference/complex_response_test/detuning_step_check_0.025_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/detuning_step_check_0.025_events.csv.gz",
+    "sha256": "e8dd93fd1b5da3bd1d7ede43e8e7d30d59b28f28a79f82aa477773e238666aab"
+  },
+  {
+    "file": "reference/complex_response_test/uniform_unequal_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/uniform_unequal_events.csv.gz",
+    "sha256": "9fc6bd3fd46dc7e345ef5309514254dfca77d73fd3f8f59e40bb587c60c9c195"
+  },
+  {
+    "file": "reference/complex_response_test/independent_strong_check_0.0125_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/independent_strong_check_0.0125_events.csv.gz",
+    "sha256": "8bdf39fd1982ff2f180833870929f9712f5603c37c4f9ef7e6e0a6ed76e2f62a"
+  },
+  {
+    "file": "reference/complex_response_test/counts.csv",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/counts.csv",
+    "sha256": "5cade2a43bbded9067e48f46a3f2ad9f1381aefd26f18a2130a05fbcfabde2ca"
+  },
+  {
+    "file": "reference/complex_response_test/uniform_double_check_0.0125_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/uniform_double_check_0.0125_events.csv.gz",
+    "sha256": "81b1febb4772dc1793d23fb0febdcedfbb5fc2f675d0e624be2315d8f84bf2a6"
+  },
+  {
+    "file": "reference/complex_response_test/detuning_disorder_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/detuning_disorder_events.csv.gz",
+    "sha256": "1d47d6c68bba346c405f89f6ed6f36f65f57381356ba248c5e666a55ea939d01"
+  },
+  {
+    "file": "reference/complex_response_test/results.json",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/results.json",
+    "sha256": "5796e1e5cd4986ba47cba3e7977bd3aa6e5031c75022f4c7670205eeed1b192c"
+  },
+  {
+    "file": "reference/complex_response_test/slow_response_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/slow_response_events.csv.gz",
+    "sha256": "4a0781fc4922bb7108de0c2cf81634bc5be370f5172d7a87605ffd103ba0406a"
+  },
+  {
+    "file": "reference/complex_response_test/independent_weak_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/independent_weak_events.csv.gz",
+    "sha256": "693372a370d5a68136fb03af4fb533d354ca2b5c7b98212608338ebe26dc8223"
+  },
+  {
+    "file": "reference/complex_response_test/uniform_single_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/uniform_single_events.csv.gz",
+    "sha256": "6371502b074c158c8f5f57ff71c3e9a8ce2848479a7ae8d90d37ac5a6a1658fe"
+  },
+  {
+    "file": "reference/complex_response_test/uniform_double_check_0.05_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/uniform_double_check_0.05_events.csv.gz",
+    "sha256": "26b154de5060af59f42b574018e18e3402c92cb59cfad807a62d6ce7c67748de"
+  },
+  {
+    "file": "reference/complex_response_test/build_report.py",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/build_report.py",
+    "sha256": "8a6736a719a2e5a5285bf4865767e13fbc20b29532931ec0072d975c202add49"
+  },
+  {
+    "file": "reference/complex_response_test/independent_strong_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/independent_strong_events.csv.gz",
+    "sha256": "57b39534eaf5c5ed408a44893507df897a9c14aa906d6335eb23c5beee640f91"
+  },
+  {
+    "file": "reference/complex_response_test/detuning_step_check_0.0125_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/detuning_step_check_0.0125_events.csv.gz",
+    "sha256": "00e35993ed8c05447c1015e0ca99c79a551dbcb6196bea29efccf260f7ac7530"
+  },
+  {
+    "file": "reference/complex_response_test/validate.py",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/validate.py",
+    "sha256": "da09b07d895196899ba025e7ad17dc335e7fcad46615e09a8bf15dc29c101977"
+  },
+  {
+    "file": "reference/complex_response_test/uniform_double_check_0.025_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/uniform_double_check_0.025_events.csv.gz",
+    "sha256": "62f92b7a51c791ace7c14b06a641159dbe5e6aa94ee904a881eee704d94118a8"
+  },
+  {
+    "file": "reference/complex_response_test/validation.json",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/validation.json",
+    "sha256": "e9f415ddbbbcf4cbee54877eecebe12a79fcc315dca44df4e108c7f53cf61f1a"
+  },
+  {
+    "file": "reference/complex_response_test/mirror_normal_check_0.0125_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/mirror_normal_check_0.0125_events.csv.gz",
+    "sha256": "78c1fa8ec664e0832424457a06eb27c4e2754251002017743a0dfbc8a3a6ddd5"
+  },
+  {
+    "file": "reference/complex_response_test/preservation_check.json",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/preservation_check.json",
+    "sha256": "7b6c6d2bf6972ee05a3ccf845617b8ea05dc5d9c49007174e4eea294c3f4d722"
+  },
+  {
+    "file": "reference/complex_response_test/uniform_shifted_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/uniform_shifted_events.csv.gz",
+    "sha256": "1b714dba38c9f83e4dfe84cb3ed8d04fe6aa9936b6ba964ed3077d6634d4ea9d"
+  },
+  {
+    "file": "reference/complex_response_test/independent_strong_check_0.025_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/independent_strong_check_0.025_events.csv.gz",
+    "sha256": "11e5facf181a2e7f305214f6067e754afb3eea6b0112f59a0d56e60184ba61df"
+  },
+  {
+    "file": "reference/complex_response_test/independent_strong_check_0.05_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/independent_strong_check_0.05_events.csv.gz",
+    "sha256": "b280183162af8bef1af85663caa6267170f50cd841c3c4c37702c1a0ae717e4d"
+  },
+  {
+    "file": "reference/complex_response_test/free_correlated_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/free_correlated_events.csv.gz",
+    "sha256": "b65ba7e15ccd929f312555ec11208e57625468ec312bdbe688b7dca51f686fd8"
+  },
+  {
+    "file": "reference/complex_response_test/uniform_double_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/uniform_double_events.csv.gz",
+    "sha256": "7c60f5497e77d6b6ed8d3f8ddfe2e42462d3e9e88131e28d12a70bbb42a1f730"
+  },
+  {
+    "file": "reference/complex_response_test/summary.png",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/summary.png",
+    "sha256": "a99c6d176ff2ee1a87e67bf18b74d46df82a9d0a2f84f30e1bd2fcdf36e776ec"
+  },
+  {
+    "file": "reference/complex_response_test/report.html",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/report.html",
+    "sha256": "38ba75a035939df8238398553fc2eccca7ae6e45590c80c50f43aa2d4c7fa3a4"
+  },
+  {
+    "file": "reference/complex_response_test/fixed_electronic_phases_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/fixed_electronic_phases_events.csv.gz",
+    "sha256": "a14af0f5490ffc8420c64f18c8c8d5e031d1c7348eb7b9e80583ed71f8b60a3e"
+  },
+  {
+    "file": "reference/complex_response_test/detuning_step_check_0.05_events.csv.gz",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/detuning_step_check_0.05_events.csv.gz",
+    "sha256": "1b870183c048c74a6a746745275672452f5ccc71e00bd5d68430ca89e03bf398"
+  },
+  {
+    "file": "reference/complex_response_test/refinement.json",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/complex_response_test/refinement.json",
+    "sha256": "dfddbd6e85f8d0876d6d4920ec059a664357065f6dfc5a14c81927dc6b1e17ca"
+  },
+  {
+    "file": "reference/local_coupling_sweep/run.py",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/local_coupling_sweep/run.py",
+    "sha256": "38cb3a148b96069f1fc2bab2ef92f7381c278336e342c375b94c0d625d7ec728"
+  },
+  {
+    "file": "reference/local_coupling_sweep/refine.py",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/local_coupling_sweep/refine.py",
+    "sha256": "1237b8eb59cfa2231e9e716b68e00a78dca8e59a219d377ecd4740d16dac7eac"
+  },
+  {
+    "file": "reference/local_coupling_sweep/build_report.py",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/local_coupling_sweep/build_report.py",
+    "sha256": "fb565632b0936b4195b3a4c747a5a716972519d606c91868f5920ee51904c665"
+  },
+  {
+    "file": "reference/local_coupling_sweep/validate.py",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/local_coupling_sweep/validate.py",
+    "sha256": "2ba2365af1c4ce2614e58a6a7392c55038f42c8458c64a89278e94afa1cb8e88"
+  },
+  {
+    "file": "reference/microscopic_detector/test_model.py",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/microscopic_detector/test_model.py",
+    "sha256": "78eca927bffc0325ec3e88ef51772d15fef36f0e8529b3940e78da17ef7aeb0e"
+  },
+  {
+    "file": "reference/microscopic_detector/build_report.py",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/microscopic_detector/build_report.py",
+    "sha256": "a0748ee6ad991ad438dff19ccba3b587baff6f469d5f329ace4dee7154e5b91f"
+  },
+  {
+    "file": "reference/microscopic_detector/detector_model.py",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/microscopic_detector/detector_model.py",
+    "sha256": "a8425579376dc3c3ee927c4f9a2fd8cf49893f938c9016e6c126f9f6edfdbd7b"
+  },
+  {
+    "file": "reference/microscopic_detector/run_experiment.py",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/microscopic_detector/run_experiment.py",
+    "sha256": "c4e16ddc69894272b666f0711a4695e29dc0740e7733e32d1e0a90037e9557a6"
+  },
+  {
+    "file": "reference/Claude_Superposition_Equations_v5.md",
+    "source": "/Users/john-bramble/Downloads/Superposition_Equations (5).md",
+    "sha256": "a99758e030d61fefc61bf9af0993d1887661741effe992225ad33602fa54a7b6"
+  },
+  {
+    "file": "reference/prior_manuscript/Born_Selection_Draft.md",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/born_selection_paper/Born_Selection_Draft.md",
+    "sha256": "33ef5d50fdc1244a81a53c634106bba97d83fabe0decb16969ca3c65cadfa849"
+  },
+  {
+    "file": "reference/prior_manuscript/Born_Selection_Draft.tex",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/born_selection_paper/Born_Selection_Draft.tex",
+    "sha256": "08cdcd67007e65ec47f4c134cdaf9849a38a21ec80a6bfdcc16f8f9eaf4dab83"
+  },
+  {
+    "file": "reference/prior_manuscript/Born_Selection_Draft.pdf",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/born_selection_paper/Born_Selection_Draft.pdf",
+    "sha256": "2875efae437927fb3b7d6cc8684e916ca1d99fcefce055d0fc584675eb61e1f7"
+  },
+  {
+    "file": "reference/prior_manuscript/Review_and_Publication_Notes.md",
+    "source": "/Users/john-bramble/Documents/Codex/2026-09-28/referenced-chatgpt-conversation-this-is-an/outputs/born_selection_paper/Review_and_Publication_Notes.md",
+    "sha256": "6a8f0ff47eec819afa705c4aef5bf0382b85495291c74022187e228511748d33"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "time_units": "Gamma inverse; dimensionless Gamma=1",
+  "beta": 0.8,
+  "pulse_start": -18.0,
+  "matched_capture": 0.7999999878475713,
+  "gaussian_capture_at_0": 0.27984014501291904,
+  "gaussian_peak_excitation": 0.6170321350944882,
+  "flux_balance_max_error": 2.66635089674061e-07,
+  "matched_qubit_max_infidelity_525_states": 6.661338147750939e-16,
+  "detuned_channel_capture": 0.5369127434721335,
+  "detuned_relative_transfer_phase": -0.6107259638803195,
+  "unmatched_example_capture": 0.6158389167847648,
+  "record_rate": 0.6,
+  "coherence_decay_rate": 0.8,
+  "fringe_visibility_delays": {
+    "0": 1.0,
+    "1": 0.44932896411722156,
+    "3": 0.09071795328941247
+  }
+}

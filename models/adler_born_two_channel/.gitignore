@@ -1,0 +1,11 @@
+# Scoped to this package only — a .gitignore applies to its own subtree.
+__pycache__/
+*.py[cod]
+
+# Generated outputs (raw records are CSV + JSON manifest; plots are derived).
+results/
+*.csv
+*.json
+*.npz
+*.png
+*.pdf
