@@ -1,5 +1,7 @@
 BornSelection
 
+This development of a microscopic model does not derive the Born Rule. It does show how using the complex amplitudes of interference in a microscopic model can result in a distribution of individual records close to the expected distribution calculated using the Born Rule.
+
 Open index.html for the project guide. Read PROJECT_CONTEXT.txt before continuing research.
 
 studies/2026-10-03 contains all current reports, plots, simulations and data.

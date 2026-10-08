@@ -6,6 +6,8 @@ Research repository for a microscopic account of how a single quantum excitation
 
 The project does **not** sample repeated microscopic outcomes from the Born distribution. Complex amplitudes remain complex throughout propagation and interference; squared magnitude is used where the geometry of complex amplitudes requires it, especially in interference and conserved intensity. The research question is whether detector dynamics, microscopic ready-state variation, and a physically justified commitment mechanism can generate individual records whose aggregate frequencies agree with Born weights without inserting those frequencies as a sampling rule.
 
+This development of a microscopic model does not derive the Born Rule. It does show how using the complex amplitudes of interference in a microscopic model can result in a distribution of individual records close to the expected distribution calculated using the Born Rule.
+
 This distinction is the repository's central honesty test. Several preserved models are negative controls or conditional constructions: they reproduce Born weights only after assuming a linear hazard, martingale, threshold distribution, or other structure equivalent to the desired measure. Such results are useful, but they are not microscopic derivations.
 
 ## Repository map
